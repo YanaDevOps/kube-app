@@ -63,13 +63,13 @@ Make sure you have the following tools installed:
 ### Infrastructure Setup
 1. Create a Kubernetes cluster using Kops:
   ```bash
-  kops create cluster --name=kubevpro.yanixproject.online --state=s3://vprofile-kops-yana --zones=us-west-1a \
-  --node-size=t3.medium --node-count=2 --master-size=t3.medium --master-count=1 --dns-zone=yanixproject.online
-  kops update cluster --name=kubevpro.yanixproject.online --yes --state=s3://vprofile-kops-yana
+  kops create cluster --name=<your-cluster-name> --state=s3://<your-s3-bucket> --zones=<preferable-zone> \
+  --node-size=t3.medium --node-count=2 --master-size=t3.medium --master-count=1 --dns-zone=<your-dns-zone>
+  kops update cluster --name=<your-cluster-name> --yes --state=s3://<your-s3-bucket>
   ```
 2. Validate the cluster:
    ```bash
-   kops validate cluster --state=s3://vprofile-kops-yana
+   kops validate cluster --state=s3://<your-s3-bucket>
    ```
 
 ### Application Deployment
