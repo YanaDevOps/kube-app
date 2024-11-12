@@ -8,7 +8,6 @@
 ![Memcached](https://img.shields.io/badge/Memcached-1.6-lightgrey)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.9.5-orange)
 ![Java](https://img.shields.io/badge/Java-11-blue)
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3-yellow)
 
 ## 📦 CI/CD and Tools
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-brightgreen)
