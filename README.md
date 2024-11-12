@@ -109,15 +109,15 @@ Replace `<your-load-balancer-dns>` with the actual DNS name of your Load Balance
 
 ### 🛠️ Troubleshooting
 1. Init Container issues:
-* Ensure all services (MySQL, Memcached, RabbitMQ) are configured and accessible.
-* Use a specific version of busybox (e.g., busybox:1.28) if latest causes problems.
+  * Ensure all services (MySQL, Memcached, RabbitMQ) are configured and accessible.
+  * Use a specific version of busybox (e.g., busybox:1.28) if latest causes problems.
 
 2. 500 Internal Server Error in Spring Boot:
-* Confirm that the database is reachable and that environment variables are correctly set.
+  * Confirm that the database is reachable and that environment variables are correctly set.
 
 3. Ingress access issues:
-* Verify that the Ingress Controller is installed and configured.
-* Check AWS Security Groups to ensure proper port access.
+  * Verify that the Ingress Controller is installed and configured.
+  * Check AWS Security Groups to ensure proper port access.
 
 ### Author
 Name: Yana Lysenko
